@@ -34,6 +34,18 @@ Anyone who uses AI assistants for ongoing, complex work — not just one-off que
 
 The system was designed for Claude Projects but the principles apply to any AI platform that supports persistent project context.
 
+## Getting started
+
+You don't need to adopt the whole system at once. Start with this:
+
+1. Upload `guidelines_v7.md` to your AI project.
+2. At the end of your first working session, paste the Case 3 (bootstrap) prompt from `context-workflow_v8.md`.
+3. For every session after that, use Case 1 prompt (steady state).
+
+That's it. The AI will review your conversation and produce structured context files that persist your decisions and rationale. Next session, it picks up where you left off.
+
+Add the other workflows as you hit the problems they solve — parallel chats creating conflicts, handoffs losing context mid-day, research reports piling up without structure. Each workflow exists because a specific pain point earned it.
+
 ## Background
 
 This system was developed through extensive iteration starting in early 2026. The design decisions file documents 54 problems identified and resolved through critical review, adversarial testing, real-world usage analysis, and external cross-checks. It has been tested across workflows including research integration, multi-chat parallel sessions, and long-running project management.
