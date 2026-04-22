@@ -16,7 +16,6 @@ A set of markdown files that form a complete context management system:
 - **`reference-file-workflows_v2.md`** — Six graduated workflows for managing research and reference material, from lightweight optimization to heavy restructuring.
 - **`system-design-decisions_v8.md`** — The full decision record: every design choice, what was considered, what was rejected, and why. Useful for understanding the reasoning behind the system's structure.
 - **`documentation-principles_v1.md`** — Writing guidance for project files: how to write rationale that stays useful over time.
-- **`changelog-cleanup-prompt_v1.md`** — A transitional prompt for trimming verbose changelog entries.
 
 ## How it works
 
@@ -44,7 +43,7 @@ You don't need to adopt the whole system at once. Start with this:
 
 That's it. The AI will review your conversation and produce structured context files that persist your decisions and rationale. Next session, it picks up where you left off.
 
-Add the other workflows as you hit the problems they solve — parallel chats creating conflicts, handoffs losing context mid-day, research reports piling up without structure. Each workflow exists because a specific pain point earned it.
+Add the other workflows as you hit the problems they solve — reconciling context from multiple parallel sessions, research material piling up without structure, etc. Each workflow exists to address a specific problem.
 
 ## Background
 
